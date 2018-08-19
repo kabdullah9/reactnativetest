@@ -10,9 +10,11 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-react-native": "^4.0.0",
+    "native-base": "^2.7.2",
     "react": "16.4.1",
     "react-native": "^0.55.4",
-    "react-native-wowza-gocoder": "^1.0.5"
+    "react-native-wowza-gocoder": "^1.0.5",
+    "react-navigation": "^2.11.2"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
