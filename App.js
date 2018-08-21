@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import {createStackNavigator} from 'react-navigation';
-import HomeScreen from './android/app/src/components/Home/HomeScreen';
-import ProfileScreen from './android/app/src/components/Profile/ProfileScreen';
+import MainScreen from './android/app/src/components/MainScreen';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -21,8 +20,7 @@ export default class App extends Component<Props> {
 }
 
 const AppStackNavigator = createStackNavigator({
-  Home: { screen: HomeScreen },
-  Profile: { screen: ProfileScreen },
+  Main: { screen: MainScreen },
 });
 
 const styles = StyleSheet.create({
